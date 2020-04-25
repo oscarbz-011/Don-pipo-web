@@ -1,0 +1,203 @@
+body{
+	margin:0;
+	font-family: 'Comic Neue', cursive;
+}
+
+.menu{
+	background: #ff0000;
+	height: 10vh;
+	border-bottom: 10px solid #e5e3e3;	
+}
+
+
+
+.menu .contenedor{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1366px;
+	width: 90%;
+	margin-bottom: 10px;
+	margin:auto;
+
+}
+
+.contenedor-botones{
+	
+	background: #ff0000;
+	display: flex;
+	margin-top:10px;
+	height: 7vh;
+	justify-content: space-between;
+	max-width: 1366px;
+	
+	margin:auto;
+
+
+}
+
+#contenedor-titulo-flex{
+	max-width: 1280px;
+	width: 78%;
+	margin:auto;
+	height: 55px;
+}
+
+#contenedor-titulo-flex ul{
+	margin:0;
+}
+
+.menu p{
+	font-size: 30px;
+	font-weight: bold;
+	color:#eee14d;
+	margin-top:5px;
+}
+.menu .wha{
+	vertical-align: middle;
+	height: 5vh;
+	margin:10px;
+	margin-top:10px;
+}
+.menu .logo{
+
+	vertical-align: middle;
+	height: 10vh;
+	margin-top: 5px;
+	z-index: 100;
+}
+
+
+#contenedor-titulo-flex ul li{
+list-style: none;
+margin:0;
+}
+a{
+	text-decoration:none;
+}
+.contenedor-botones ul{
+	display: flex;
+
+}
+
+#contenedor-titulo-flex a{
+	
+	font-family: 'Baloo Tamma 2', cursive;
+	
+	border-right: 5px solid #eee14d;
+	font-size:16px;
+	margin:0;
+	color:#eee14d;
+	background:#ff0000;
+	padding-top: 15px;
+	text-align: center;
+	width: 145px;
+	height: 30px;
+	display:inline-block;
+}
+
+#contenedor-titulo-flex .inicio{
+	border-left: 5px solid #eee14d;
+	display: inline-block;
+}
+
+.contenedor-imagen {
+	margin-bottom: 0;
+}
+
+
+section {
+	background: #e5e3e3;
+}
+
+.contenedor-productos ul{
+	list-style: none;
+}
+
+section{
+	background: #e5e3e3;
+}
+
+section .contenedor-productos{
+	background: #e5e3e3;
+	padding: 50px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.chipa{
+	width: 90%;
+}
+
+section .producto{
+	padding: 34px 30px 38px 30px;
+}
+.chipa{
+	font-size: 30px;
+	font-weight: bold;
+	color: #fb0752;
+}
+.precio{
+	font-weight: bold;
+	font-size: 30px;
+	color:#000;
+}
+
+footer .contenedor{
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+footer{
+	background: #ff0000;
+}
+
+
+footer .contenedor{
+	max-width: 1366px;
+	width: 93%;
+	margin:auto;
+}
+footer img{
+	margin: 5px;
+  }
+
+  .direcciones{
+  	width: 20%;
+  }
+
+.direcciones .titulo{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin:0;
+	color:#eee14d;
+}
+
+.direcciones .ciudad{
+	font-size: 18px;
+	text-align: center;
+	color: #eee14d;
+}
+
+.direcciones .direccion{
+	font-size: 16px;
+	text-align: center;
+	color:#eee14d;
+}
+
+.redes .titulo{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top:5px;
+	margin:0;
+	color:#eee14d;
+}
+.redes p{
+	margin:0;
+}
+
+.redes .face{
+	margin-top: 18px;
+}
