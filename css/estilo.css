@@ -11,20 +11,18 @@ body{
 .menu .contenedor{
 	display: flex;
 	justify-content: space-between;
-	max-width: 1366px;
-	width: 90%;
 	margin:auto;
 }
 
 
 .contenedor-botones{
-	max-width: 1366px;
 	background: #ff0000;
+	display: flex;	
+	align-items: center;
+	justify-content: center;
 }
 
 #contenedor-titulo-flex{
-	max-width: 1280px;
-	width: 78%;
 	margin:auto;
 }
 
