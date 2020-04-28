@@ -82,6 +82,9 @@ ul{
 
 .contenedor-imagen {
 	margin-bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 ul {
@@ -94,16 +97,20 @@ section{
 	padding: 50px;
 }
 
-section .contenedor{
-	display: flex;
+section .galeria{
+	justify-content: center;
+	display: block; 
+	text-align: center;
+	//border: 3px solid green; //util para deputar donde esta el la galeria
 }
 
-section .contenedor .fotos{
+
+section .galeria .fotos{
 	margin:0 2px;
+
 }
 
 footer .contenedor{
-	
 	display: flex;
 	justify-content: space-between;
 }
@@ -114,7 +121,6 @@ footer{
 
 
 footer .contenedor{
-	max-width: 1366px;
 	width: 93%;
 	margin:auto;
 }
